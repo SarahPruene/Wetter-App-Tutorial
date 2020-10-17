@@ -3,6 +3,10 @@
 body {
   font-family: 'Commissioner', sans-serif; 
 }
+a {
+  color: #212121;
+  text-decoration: none;
+}
 
 h1 {
   color: #878787;
@@ -39,5 +43,23 @@ li {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 3px;
+}
+
+.weather-temp img{
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temp strong {
+  color: rgb(33,33,33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
 
