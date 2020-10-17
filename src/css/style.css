@@ -27,6 +27,9 @@ li {
   padding: 0;
 }
 
+.overview {
+  margin-bottom: 20px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px  auto;
