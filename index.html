@@ -13,10 +13,10 @@
     <div class="weather-app-wrapper">
       <div class="weather-app">
         <div class="overview">
-          <h1>Berlin, Germany</h1>
+          <h1 id="location"></h1>
           <ul>
-            <li>Saturday, 15:00</li>
-            <li>Mostly cloudy</li>
+            <li id="date ">Saturday, 15:00</li>
+            <li id="description"></li>
           </ul>
         </div>
 
@@ -24,7 +24,7 @@
           <div class="col-6">
             <div class="clearfix weather-temp">
               <img src="img/partlycloudy.png" alt="Mostly Cloudy" class="float-left">
-              <strong>12</strong>
+              <strong id="temperature"></strong>
               <span class="units">
                 <a href="#">°C</a> |
                 <a href="#">°F</a>
@@ -35,8 +35,8 @@
           <div class="col-6">
             <ul>
               <li>Precipitation: 1%</li>
-              <li>Humidity: 59%</li>
-              <li>Wind: 6 km/h</li>
+              <li>Humidity:  <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>  km/h</li>
             </ul>
           </div>
         </div>
